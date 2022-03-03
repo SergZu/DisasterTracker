@@ -1,0 +1,20 @@
+{
+  "name": "disaster-tracker",
+  "version": "1.0.0",
+  "description": "Natural Disaster Tracker with React and NASA API",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/SergZu/DisasterTracker"
+  },
+  "keywords": [
+    "Tracker",
+    "Natural",
+    "Disasters"
+  ],
+  "author": "SergZu",
+  "license": "ISC"
+}
