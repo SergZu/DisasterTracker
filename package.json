@@ -1,30 +1,32 @@
 {
-  "name": "disaster-tracker",
+  "name": "forex-trader-app",
   "version": "1.0.0",
-  "description": "Natural Disaster Tracker with React and NASA API",
+  "description": "Forex Trading App with React/Redux",
   "main": "index.html",
   "scripts": {
     "test": "test",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
-     "build": "webpack"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/SergZu/DisasterTracker"
+    "url": "github.com/SergZu/ForexTrader"
   },
   "keywords": [
-    "Tracker",
-    "Natural",
-    "Disasters"
+    "Forex",
+    "Mock trading"
   ],
   "author": "SergZu",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.13",
+    "css-loader": "^6.7.0",
+    "dotenv": "^16.0.0",
     "html-webpack-plugin": "^5.5.0",
     "path": "^0.12.7",
+    "style-loader": "^3.3.1",
     "ts-loader": "^9.2.7",
     "typescript": "^4.6.2",
     "webpack": "^5.70.0",
@@ -33,6 +35,7 @@
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1"
   }
 }
